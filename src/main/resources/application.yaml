@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: blog
+  data:
+    mongodb:
+      port: 27017
+      host: localhost
+      username: user
+      password: password
+      database: blog
+      authentication-database: admin
+logging:
+  level:
+    org.springframework.data.mongodb: DEBUG
